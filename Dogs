@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Dogs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Dog Lovers' Hub</h1>
+    <nav>
+        <a href="#breeds">Breeds</a>
+        <a href="#care">Dog Care</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="breeds">
+        <h2>Popular Dog Breeds</h2>
+        <p>Learn about some of the most popular dog breeds around the world.</p>
+        <ul>
+            <li>Golden Retriever</li>
+            <li>German Shepherd</li>
+            <li>Bulldog</li>
+            <li>Beagle</li>
+            <li>Poodle</li>
+        </ul>
+    </section>
+
+    <section id="care">
+        <h2>Dog Care Tips</h2>
+        <p>Find tips on how to take care of your furry friend.</p>
+        <ul>
+            <li>Regular exercise is essential.</li>
+            <li>Maintain a balanced diet.</li>
+            <li>Regular vet check-ups are important.</li>
+            <li>Socialize your dog with other pets and people.</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Dog Gallery</h2>
+        <p>Enjoy some adorable pictures of dogs!</p>
+        <img src="https://example.com/dog1.jpg" alt="Cute Dog 1">
+        <img src="https://example.com/dog2.jpg" alt="Cute Dog 2">
+        <img src="https://example.com/dog3.jpg" alt="Cute Dog 3">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or suggestions, feel free to reach out!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Dog Lovers' Hub</p>
+</footer>
+
+</body>
+</html>
